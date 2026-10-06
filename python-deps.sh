@@ -11,5 +11,4 @@ flatpak-builder-tools/pip/flatpak-pip-generator \
     --ignore-pkg 'pygobject,pycairo' \
     --ignore-installed lxml \
     --runtime org.gnome.Sdk//51 \
-    --output python-deps \
-    --yaml
+    --output python-deps

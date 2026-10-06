@@ -67,7 +67,7 @@ modules:
           url-template: https://poppler.freedesktop.org/poppler-$version.tar.xz
 
   # Python dependencies
-  - python-deps.yaml
+  - python-deps.json
 
   - name: alexandria
     buildsystem: simple
@@ -80,8 +80,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/pemsley/Alexandria.git
-        tag: v0.7.1
-        commit: 0549d3df5188f22d0a0a97c41d6d6a1e617c75c8
+        tag: v0.8.0
+        commit: 1fafd5412f851c3514871e9aecfc32a94fa34da2
         x-checker-data:
           type: git
           tag-pattern: ^v([0-9]+(?:\.[0-9]+)*)$
