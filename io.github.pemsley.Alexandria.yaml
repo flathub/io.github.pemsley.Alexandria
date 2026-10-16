@@ -80,8 +80,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/pemsley/Alexandria.git
-        tag: v0.8.0
-        commit: 1fafd5412f851c3514871e9aecfc32a94fa34da2
+        tag: v0.8.1
+        commit: dbe203c2182427d31990710df562f9ae42ab081f
         x-checker-data:
           type: git
           tag-pattern: ^v([0-9]+(?:\.[0-9]+)*)$

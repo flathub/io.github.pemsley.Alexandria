@@ -56,7 +56,7 @@ flatpak run io.github.pemsley.Alexandria//master
 
 ## Updating Python dependencies
 
-Python dependencies are stored in `python-deps.yaml` so that Flatpak can build the application without network access during the build.
+Python dependencies are stored in `python-deps.json` so that Flatpak can build the application without network access during the build.
 
 After changing `requirements.txt`, regenerate the dependency modules with:
 
